@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --Violet: hsl(257, 40%, 49%);
+  --Soft-Magenta: hsl(300, 69%, 71%);
+  --white: hsl(0, 100%, 100%);
+}
+
+body, html {
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+main {
+  display: flex;
+  width: 90%;
+}
+
+h1 {
+  font-size: 2.3rem;
+  margin: 9.5rem 0 1.5rem 0;
+}
+
+button {
+  font-family: 'Poppins', sans-serif;
+  border: none;
+  padding: 0.8rem 4rem;
+  border-radius: 5rem;
+  font-size: 1rem;
+  color: var(--Violet);
+  background-color: var(--white);
+  margin-top: 2rem;
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--Soft-Magenta);
+  color: var(--white);
+}
+
+.main-bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--Violet);
+  background-image: url(images/bg-desktop.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.main-img {
+  margin-right: 3rem;
+}
+
+.main-text {
+  color: var(--white);
+  width: 68%;
+}
+
+.main-img img:first-child {
+  width: 30%;
+  margin-bottom: 4rem;
+}
+
+.img-mockups {
+  width: 100%;
+}
+
+.main-icons {
+  margin-left: 20rem;
+}
+
+.main-icons i {
+  border: 1px solid var(--white);
+  border-radius: 50%;
+  padding: 0.6rem;
+  margin: 5rem 0.3rem;
+  cursor: pointer;
+}
+
+.main-icons i:first-child {
+  padding: 0.6rem 0.8rem;
+}
+
+.main-icons i:last-child {
+  padding: 0.6rem 0.67rem;
+}
+
+.main-icons i:hover {
+  color: var(--Soft-Magenta);
+  border-color: var(--Soft-Magenta);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  background-color: var(--Violet);
+  color: var(--white);
+}
+
+.attribution a {
+  color: var(--white);
+}
